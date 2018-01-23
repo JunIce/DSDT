@@ -905,7 +905,7 @@ DefinitionBlock ("", "SSDT", 1, "SgRef", "SgPeg", 0x00001000)
             Method (_BCM, 1, NotSerialized)  // _BCM: Brightness Control Method
             {
                 Return (\_SB.PCI0.GFX0.DD02._BCM)
-                Arg0
+                
             }
         }
 

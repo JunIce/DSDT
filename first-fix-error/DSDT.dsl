@@ -5983,46 +5983,6 @@ DefinitionBlock ("", "DSDT", 2, "CST000", "CSB00000", 0x00000035)
                 }
             }
 
-            Zero
-            Zero
-            Zero
-            Zero
-            Zero
-            Zero
-            Zero
-            Zero
-            Zero
-            Zero
-            Zero
-            Zero
-            Zero
-            Zero
-            Zero
-            Zero
-            Zero
-            Zero
-            Zero
-            Zero
-            Zero
-            Zero
-            Zero
-            Zero
-            Zero
-            Zero
-            Zero
-            Zero
-            Zero
-            Zero
-            Zero
-            Zero
-            Zero
-            Zero
-            Zero
-            Zero
-            Zero
-            Zero
-            Zero
-            Zero
             Device (B0D4)
             {
                 Name (_ADR, 0x00040000)  // _ADR: Address
@@ -10124,7 +10084,6 @@ DefinitionBlock ("", "DSDT", 2, "CST000", "CSB00000", 0x00000035)
         If (CondRefOf (MDBG))
         {
             Return (MDBG)
-            Arg0
         }
 
         Return (Zero)
